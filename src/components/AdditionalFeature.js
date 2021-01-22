@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 const AdditionalFeature = props => {
   
-  const handleAddFeature = (feature) => {
-    console.log(feature)
-    props.addFeature(feature);
+  const handleAddFeature = () => {
+    
+    props.addFeature(props.feature);
   }
 
   return (
